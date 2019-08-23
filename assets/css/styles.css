@@ -95,6 +95,7 @@ p {
 span {
     display: block;
     padding: 5px 0 5px 0;
+    line-height: 2em;
 }
 
 input {
@@ -132,6 +133,10 @@ h3 {
 .flex-item img {
     height: 220px;
     width: 300px;
+}
+
+.flex-item:hover {
+    opacity: 0.5;
 }
 
 
